@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <h1>La mia prima app con Vue CLI!</h1>
+    <div id="jumbotron">
+      <img src="../../public/space-cover.jpg" alt="">
+    </div>
   </div>
 </template>
 
@@ -28,5 +31,14 @@ li {
 }
 a {
   color: #42b983;
+}
+
+#jumbotron{
+  width: 100%;
+  height: 200px;
+}
+
+#jumbotron img{
+  width: 100%;
 }
 </style>
